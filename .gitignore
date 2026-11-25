@@ -1,0 +1,14 @@
+# Ambiente e credenciais locais
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+
+# Entradas locais; consulte o README para obter os CSVs.
+/raw/tcc/dados/*.csv
+
+# Saídas opcionais; o pacote público leva apenas a rodada corrigida.
+/auditoria.md
+/Caio/mvp/erc20-vazio/
+/Caio/mvp/sem-log/
